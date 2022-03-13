@@ -1,9 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 platform :ios, '11.0'
 
 target 'PodSpecSDK_Example' do
-  pod 'PodSpecSDK', :path => '../'
+
+  pod 'PodSpecSDK'
 
   target 'PodSpecSDK_Tests' do
     inherit! :search_paths

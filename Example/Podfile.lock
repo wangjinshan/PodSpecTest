@@ -24,19 +24,17 @@ DEPENDENCIES:
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
-  - PodSpecSDK (from `../`)
+  - PodSpecSDK
   - Specta
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PodSpecSDK
   trunk:
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
     - Specta
-
-EXTERNAL SOURCES:
-  PodSpecSDK:
-    :path: "../"
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
@@ -45,6 +43,6 @@ SPEC CHECKSUMS:
   PodSpecSDK: fa2dc0fc137db932667edda3e5bf36574be42674
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: e8927115bb952fd03816b87114fc73e683b4523a
+PODFILE CHECKSUM: f7f6457bbb53768ce2c39852f00bf0c518b26550
 
 COCOAPODS: 1.11.2
