@@ -1,0 +1,50 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PodSpecSDK (0.1.3):
+    - PodSpecSDK/A (= 0.1.3)
+    - PodSpecSDK/B (= 0.1.3)
+    - PodSpecSDK/C (= 0.1.3)
+  - PodSpecSDK/A (0.1.3):
+    - PodSpecSDK/B
+  - PodSpecSDK/B (0.1.3)
+  - PodSpecSDK/C (0.1.3):
+    - PodSpecSDK/A
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - PodSpecSDK (from `../`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  PodSpecSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PodSpecSDK: fa2dc0fc137db932667edda3e5bf36574be42674
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: e8927115bb952fd03816b87114fc73e683b4523a
+
+COCOAPODS: 1.11.2
